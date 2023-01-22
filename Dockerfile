@@ -8,7 +8,7 @@ RUN apk update && apk upgrade
 RUN apk add python3 g++ make
 
 COPY package*.json ./
-COPY prisma ./prisma/
+# COPY prisma ./prisma/
 
 RUN yarn
 
